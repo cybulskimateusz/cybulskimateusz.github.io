@@ -213,6 +213,7 @@ figure{
 	opacity:0.9;
 	margin-right:2rem;
 	transition:all 0.3s ease-in-out;
+	min-width:200px;
 }
 figure:hover{
 	-webkit-transform: scale(1.1);
@@ -237,6 +238,7 @@ figure:hover{
 	margin-top:auto !important;
 	background-color:black;
 	margin-right:auto;
+	z-index:100;
 }
 .social-media a{
 	margin-top:1.5rem;
