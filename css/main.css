@@ -65,6 +65,8 @@ article{
 	transition: transform 0.3s ease-in-out;
 }
 .main-nav li:hover{
+	-webkit-transform: scale(1.7);
+	-ms-transform: scale(1.7);
 	transform: scale(1.7);
 }
 .main-nav li:first-child{
@@ -213,6 +215,8 @@ figure{
 	transition:all 0.3s ease-in-out;
 }
 figure:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
 	transform: scale(1.1);
 }
 .panel-portfolio{
