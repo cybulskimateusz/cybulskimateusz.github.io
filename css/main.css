@@ -239,6 +239,7 @@ figure:hover{
 	background-color:black;
 	margin-right:auto;
 	z-index:100;
+	opacity:0.3;
 }
 .social-media a{
 	margin-top:1.5rem;
