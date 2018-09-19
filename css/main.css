@@ -62,26 +62,10 @@ article{
 	font-size:0.6rem;
 	padding-top:0.7rem;
 	margin-left:2.5rem;
-	transform: scale(1,1);
-    transition-timing-function: ease-out;
-    transition-duration: 250ms;
-    -webkit-transform: scale(1,1);
-    -webkit-transition-timing-function: ease-out;
-    -webkit-transition-duration: 250ms;
-    -moz-transform: scale(1,1);
-    -moz-transition-timing-function: ease-out;
-    -moz-transition-duration: 250ms;
+	transition: transform 0.3s ease-in-out;
 }
 .main-nav li:hover{
-	transform: scale(1.7,1.7);
-    transition-timing-function: ease-out;
-    transition-duration: 250ms;
-    -webkit-transform: scale(1.7,1.7);
-    -webkit-transition-timing-function: ease-out;
-    -webkit-transition-duration: 250ms;
-    -moz-transform: scale(1.7,1.7);
-    -moz-transition-timing-function: ease-out;
-    -moz-transition-duration: 250ms;
+	transform: scale(1.7);
 }
 .main-nav li:first-child{
 	padding-top:0;
@@ -91,14 +75,6 @@ article{
 }
 .main-nav li:first-child:hover{
 	transform: none !important;
-    transition-timing-function: none !important;
-    transition-duration: none !important;
-    -webkit-transform: none !important;
-    -webkit-transition-timing-function: none !important;
-    -webkit-transition-duration: none !important;
-    -moz-transform: none !important;
-    -moz-transition-timing-function: none !important;
-    -moz-transition-duration: none !important;
 }
 .panel{
 	min-height:80vh;
@@ -234,6 +210,10 @@ figure{
 	background-color:white;
 	opacity:0.9;
 	margin-right:2rem;
+	transition:all 0.3s ease-in-out;
+}
+figure:hover{
+	transform: scale(1.1);
 }
 .panel-portfolio{
 	min-height:80vh;
