@@ -121,7 +121,7 @@ input{
 input[id=f-name]{
 	margin-right:10%;
 }
-input[id=f-mail]]{
+input[id=f-mail]{
 	margin-left:0;
 }
 textarea{
@@ -214,7 +214,7 @@ footer{
 	min-height:85vh;
 	max-height:85vh;
 	width:90%;
-	margin-top:12.5vh;
+	margin-top:10vh;
 	margin-left:auto;
 	margin-right:auto;
 	display:flex;
@@ -241,7 +241,7 @@ footer{
 	display:none;
 }
 #list-portfolio > li{
-	min-height:37.5vh;
+	min-height:12.5rem;
 	background-color:white;
 	opacity:0.9;
 	margin-right:auto;
