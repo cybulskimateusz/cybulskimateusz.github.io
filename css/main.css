@@ -208,12 +208,11 @@ footer{
 }
 figure{
 	min-height:40vh;
-	width:12rem;
 	background-color:white;
 	opacity:0.9;
 	margin-right:2rem;
 	transition:all 0.3s ease-in-out;
-	min-width:200px;
+	min-width:10rem;
 }
 figure:hover{
 	-webkit-transform: scale(1.1);
