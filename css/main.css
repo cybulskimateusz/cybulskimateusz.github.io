@@ -214,7 +214,7 @@ footer{
 	min-height:85vh;
 	max-height:85vh;
 	width:90%;
-	margin-top:10vh;
+	margin-top:12.5vh;
 	margin-left:auto;
 	margin-right:auto;
 	display:flex;
@@ -239,12 +239,14 @@ footer{
 	z-index:99;
 	opacity:0.3;
 	margin-left:auto;
+	display:none;
 }
 #list-portfolio > li{
 	min-height:37.5vh;
 	background-color:white;
 	opacity:0.9;
-	margin-right:2rem;
+	margin-right:auto;
+	margin-left:1rem;
 	margin-top:1rem;
 	transition:all 0.3s ease-in-out;
 	min-width:10rem;
