@@ -118,10 +118,10 @@ input{
 	padding-left:0.5rem;
 	padding-right:0.5rem;
 }
-input[name=name]{
+input[id=f-name]{
 	margin-right:10%;
 }
-input[name=mail]]{
+input[id=f-mail]]{
 	margin-left:0;
 }
 textarea{

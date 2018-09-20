@@ -18,8 +18,9 @@
 		<link rel="stylesheet" href="css/css/fontello.css">
 		<link rel="stylesheet" href="css/main.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="jquery.scrollTo.min.js"></script>
-		<script src="script.js"></script>
+		<script src="javascript/jquery.scrollTo.min.js"></script>
+		<script src="javascript/jquery.validate.min.js"></script>
+		<script src="javascript/script.js"></script>
 	</head>
 	
 	<body>
@@ -61,12 +62,12 @@
 			<article  id="contact">
 				<div class="panel">
 					<div class="contact-form">
-						<form>
+						<form id="form">
 						<div class="inputs">
-							<input type="text" name="name" placeholder="name"></input>
-							<input type="text" name="mail" placeholder="e-mail"></input>
+							<input type="text" id="f-name" placeholder="name"></input>
+							<input type="text" id="f-mail" placeholder="e-mail"></input>
 						</div>
-							<textarea name="contact" placeholder="What's up?"></textarea>
+							<textarea id="f-contact" placeholder="What's up?"></textarea>
 						</form>
 					</div>
 					<div class="social-media">
