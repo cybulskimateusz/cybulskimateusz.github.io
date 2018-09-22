@@ -1,6 +1,7 @@
 html{
 	font-size:20px;
 	font-family: San Fracisco, Ubuntu,Arial,sans-serif;
+	line-height:1.6rem;
 }
 body{
 	margin:0;
@@ -11,6 +12,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.img img{
+	opacity: 0;
+	filter: alpha(opacity=0);
+	width:100%;
+	height:100%;
+}
 nav{
 	margin-top:0;
 	width:100%;
@@ -19,6 +26,7 @@ nav{
 	opacity:0.9;
 	position:fixed;
 	z-index:100;
+	line-height:1;
 }
 article{
 	width:100%;
@@ -183,6 +191,7 @@ footer{
 .img{
 	background-image:url("img/profile.jpg");
 	min-height:9rem;
+	max height:9rem;
 	width:9rem;
 	border-radius:9rem;
 	margin-left:auto;
@@ -190,6 +199,7 @@ footer{
     background-size: cover;
 }
 .name{
+	margin-top:1rem;
 	margin-left:auto;
 	margin-right:auto;
 	font-size:2.3rem;
@@ -250,6 +260,7 @@ footer{
 	transition:all 0.3s ease-in-out;
 	min-width:10rem;
 	max-width:10rem;
+	display:block;
 	
 }
 .social-media a{
