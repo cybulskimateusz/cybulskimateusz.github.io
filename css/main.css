@@ -224,7 +224,7 @@ footer{
 #content-portfolio{
 	min-height:85vh;
 	max-height:85vh;
-	width:90%;
+	width:100%;
 	margin-top:10vh;
 	margin-left:auto;
 	margin-right:auto;
@@ -233,22 +233,23 @@ footer{
 }
 #list-portfolio{
 	min-height:85vh;
-	width:85%;
+	width:100%;
 	display:flex;
 	margin-left:0;
 	margin-bottom:auto;
 	margin-top:auto;
 	list-style:none;
+	overflow-x:auto;
+	overflow-y:hidden;
+	-webkit-overflow-scrolling:touch;
 }
-#next{
-	margin-bottom:auto;
-	margin-top:auto !important;
-	background-color:black;
-	margin-right:auto;
-	z-index:99;
-	margin-left:auto;
-	display:none;
+#list-portfolio::-webkit-scrollbar {
+	width:0.1em;
 }
+#list-portfolio::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,0.3);
+}
+
 #list-portfolio > li{
 	min-height:22rem;
 	background-color:white;
@@ -260,6 +261,7 @@ footer{
 	display:inline-block;
 	margin-top:auto;
 	margin-bottom:auto;
+	box-shadow:1px 1px 1px 1px gray;
 }
 .social-media a{
 	margin-top:1.5rem;
