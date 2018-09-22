@@ -71,8 +71,8 @@
 					<div class="contact-form">
 						<form id="form" action="php/send.php">
 						<div class="inputs">
-							<input type="text" id="f-name" placeholder="name"/>
-							<input type="text" id="f-mail" placeholder="e-mail"/>
+							<input type="text" id="f_title" placeholder="title"/>
+							<input type="text" id="f_mail" placeholder="e-mail"/>
 						</div>
 							<textarea id="f-contact" placeholder="What's up?"></textarea>
 						</form>

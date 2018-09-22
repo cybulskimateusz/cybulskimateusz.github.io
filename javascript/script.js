@@ -5,5 +5,5 @@ $document.ready(function($){
 				$('#menu-about').click(function() { $.scrollTo($('#about'),500);});
 				$('#menu-portfolio').click(function() { $.scrollTo($('#portfolio'),500);});
 				$('#menu-contact').click(function() { $.scrollTo($('#contact'),500);});
-				$('#send').click(function(){$('form#form').submit()});
+				$('#send').click(function(){$('form#form').submit();});
 			});
