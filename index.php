@@ -55,6 +55,13 @@
 					<ul id="list-portfolio">
 						<li></li>
 						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
 					</ul>
 					<div id="next" class="circle" >&rang;</div>
 				</div>
@@ -68,7 +75,6 @@
 							<input type="text" id="f-mail" placeholder="e-mail"/>
 						</div>
 							<textarea id="f-contact" placeholder="What's up?"></textarea>
-							<input type="submit" value="send" style="display:none !important;"/>
 						</form>
 					</div>
 					<div class="social-media">
