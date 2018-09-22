@@ -1,4 +1,4 @@
-$document.ready(function($){
+JQuery(function($){
 				$.scrollTo(0);
 				$('#logo').click(function() { $.scrollTo($('#now'),500);});
 				$('#menu-now').click(function() { $.scrollTo($('#now'),500);});

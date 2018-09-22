@@ -118,10 +118,10 @@ input{
 	padding-left:0.5rem;
 	padding-right:0.5rem;
 }
-input[id=f_title]{
+.inputs input:first-child{
 	margin-right:10%;
 }
-input[id=f_mail]{
+.inputs input:last-child{
 	margin-left:0;
 }
 textarea{
