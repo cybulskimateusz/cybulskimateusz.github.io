@@ -200,6 +200,7 @@ footer{
 }
 .name{
 	margin-top:1rem;
+	margin-bottom:1rem;
 	margin-left:auto;
 	margin-right:auto;
 	font-size:2.3rem;
@@ -234,11 +235,9 @@ footer{
 	min-height:85vh;
 	width:85%;
 	display:flex;
-	flex-direction:column;
-	flex-wrap:wrap-reverse;
 	margin-left:0;
-	margin-bottom:0;
-	margin-top:0;
+	margin-bottom:auto;
+	margin-top:auto;
 	list-style:none;
 }
 #next{
@@ -251,17 +250,16 @@ footer{
 	display:none;
 }
 #list-portfolio > li{
-	min-height:12.5rem;
+	min-height:22rem;
 	background-color:white;
 	opacity:0.9;
-	margin-right:auto;
 	margin-left:1rem;
-	margin-top:1rem;
 	transition:all 0.3s ease-in-out;
-	min-width:10rem;
-	max-width:10rem;
-	display:block;
-	
+	min-width:15rem;
+	max-width:15rem;
+	display:inline-block;
+	margin-top:auto;
+	margin-bottom:auto;
 }
 .social-media a{
 	margin-top:1.5rem;
