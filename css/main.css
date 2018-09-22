@@ -11,6 +11,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+	overflow:hidden;
 }
 .img img{
 	opacity: 0;
@@ -254,7 +255,8 @@ footer{
 	min-height:22rem;
 	background-color:white;
 	opacity:0.9;
-	margin-left:1rem;
+	margin-left:0.5rem;
+	margin-right:3rem;
 	transition:all 0.3s ease-in-out;
 	min-width:15rem;
 	max-width:15rem;
