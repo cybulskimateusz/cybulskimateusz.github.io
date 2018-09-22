@@ -53,7 +53,7 @@
 			<article  id="portfolio">
 				<div id="content-portfolio">
 					<ul id="list-portfolio">
-						<li></li>
+						<li>.</li>
 						<li></li>
 						<li></li>
 						<li></li>
