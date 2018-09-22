@@ -5,4 +5,5 @@ jQuery(function($){
 				$('#menu-about').click(function() { $.scrollTo($('#about'),500);});
 				$('#menu-portfolio').click(function() { $.scrollTo($('#portfolio'),500);});
 				$('#menu-contact').click(function() { $.scrollTo($('#contact'),500);});
+				$('#send').click(function(){$('#form').submit();});
 			});
