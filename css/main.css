@@ -296,8 +296,8 @@ footer{
 	margin:auto;
 	display:inline;
    }
-   .main-nav li:first-child{
-		display:none;
+   .main-nav li[id=li-now]{
+	   display:none;
    }
    footer{
 	   min-height:3rem;
@@ -315,6 +315,9 @@ footer{
 	   flex-direction:row;
 	   margin-top:1rem;
 	   min-height:auto;
+	   width:100%;
+   }
+   .contact-form{
 	   width:100%;
    }
    #send{
