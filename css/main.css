@@ -302,4 +302,34 @@ footer{
    footer{
 	   min-height:3rem;
    }
+   .panel{
+	   flex-direction:column;
+   }
+   .social-media a{
+	   margin-top:0;
+   }
+   .social-media a[title=Twitter]{
+	   margin-right:auto;
+   }
+   .social-media{
+	   flex-direction:row;
+	   margin-top:1rem;
+	   min-height:auto;
+	   width:100%;
+   }
+   #send{
+	   margin-left:auto;
+   }
+   .circle{
+	width:2.5rem;
+	min-height:2rem;
+	background-color:blue;
+	border-radius:2.5rem;
+	opacity:0.8;
+	color:white;
+	font-size:1rem;
+	padding-top:0.5rem;
+	cursor:pointer;
+	text-align:center;
+   } 
 }
