@@ -273,3 +273,33 @@ footer{
 .social-media a:first-child{
 	margin-top:0;
 }
+@media only screen and (max-width: 690px) {
+   .void{
+	   min-height:90vh;
+	   width:100%;
+	   left:0;
+	   position:fixed;
+   }
+   nav { 
+		bottom:0; 
+		display:flex;
+   }
+	.main-nav{
+	margin:auto;
+	width:100%;
+	padding:0;
+	display:inline-flex;
+   }
+   .main-nav li{
+	font-size:0.6rem;
+	padding:0;
+	margin:auto;
+	display:inline;
+   }
+   .main-nav li:first-child{
+		display:none;
+   }
+   footer{
+	   min-height:3rem;
+   }
+}
