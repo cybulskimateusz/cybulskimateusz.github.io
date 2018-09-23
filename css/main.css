@@ -311,7 +311,8 @@ footer{
 	   min-height:3rem;
    }
    .panel{
-	   flex-direction:column;
+	   display:block;
+	   width:100%;
    }
    .social-media a{
 	   margin-top:0;
@@ -343,4 +344,20 @@ footer{
 	cursor:pointer;
 	text-align:center;
    } 
+   .inputs{
+	   display:block;
+   }
+   .inputs input{
+	   display:block;
+	   width:100%;
+	   margin-top:0.5rem;
+	   padding:0;
+   }
+   form{
+	   display:block;
+   }
+   #f-contact{
+	   width:100%;
+	   padding:0;
+   }
 }
