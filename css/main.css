@@ -368,4 +368,10 @@ footer{
 	   width:100%;
 	   padding:0;
    }
+   .social-media a{
+		z-index:99;
+	}
+	#send{
+		z-index:99;
+	}
 }
