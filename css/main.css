@@ -223,7 +223,8 @@ footer{
 }
 #list-portfolio li[id=li_void]{
 	visibility:hidden;
-	width:2rem;
+	min-width:2rem;
+	max-width:2rem;
 }
 #content-portfolio{
 	min-height:25rem;
