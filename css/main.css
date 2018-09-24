@@ -221,6 +221,10 @@ footer{
 	-ms-transform: scale(1.1);
 	transform: scale(1.1);
 }
+#list-portfolio li[id=li_void]{
+	visibility:hidden;
+	width:2rem;
+}
 #content-portfolio{
 	min-height:25rem;
 	max-height:85vh;
