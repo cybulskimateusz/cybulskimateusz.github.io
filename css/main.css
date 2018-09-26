@@ -270,7 +270,7 @@ footer{
 	box-shadow:1px 1px 1px 1px gray;
 }
 .social-media a{
-	margin-top:1.5rem;
+	margin-top:0.5rem;
 }
 .social-media a[title=Send]{
 	margin-top:auto;
