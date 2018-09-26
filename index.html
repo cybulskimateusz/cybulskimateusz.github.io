@@ -21,6 +21,7 @@
 		<script src="javascript/jquery.scrollTo.min.js"></script>
 		<script src="javascript/jquery.validate.min.js"></script>
 		<script src="javascript/script.js"></script>
+		
 	</head>
 	
 	<body>
@@ -71,8 +72,8 @@
 					<div class="contact-form">
 						<form id="form" method="post" action="php/send.php">
 						<div class="inputs">
-							<input type="text" name="f_subject" placeholder=" subject"/>
-							<input type="mail" name="f_mail" placeholder=" e-mail"/>
+							<input type="text" id="f_subject" name="f_subject" placeholder=" subject"/>
+							<input type="mail" id="f_mail"name="f_mail" placeholder=" e-mail"/>
 						</div>
 							<textarea type="text" id ="f-message" name="f_message" placeholder="What's up?"></textarea>
 						</form>
