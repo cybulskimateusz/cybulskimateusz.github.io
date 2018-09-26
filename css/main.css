@@ -181,6 +181,9 @@ footer{
 #twitter{
 	background-color:#55acee;
 }
+#github{
+	background-color:gray;
+}
 .panel-column{
 	flex-direction:column;
 	min-height:80vh;
