@@ -253,6 +253,7 @@ footer{
 }
 
 #list-portfolio > li{
+	font-size:0.6rem;
 	min-height:22rem;
 	background-color:white;
 	opacity:0.9;
