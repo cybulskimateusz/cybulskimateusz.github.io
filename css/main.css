@@ -12,6 +12,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.img_now{
+	margin:auto;
+}
 .img img{
 	opacity: 0;
 	filter: alpha(opacity=0);
